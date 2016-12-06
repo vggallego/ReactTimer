@@ -1,0 +1,13 @@
+.top-bar {
+    background-color: $nav-background;
+    .menu {
+        background-color: inherit;
+        .menu-text {
+            color: $nav-text-color;
+            a {
+                padding: 0;
+                display: inline;
+            }
+        }
+    }
+}
